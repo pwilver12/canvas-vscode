@@ -1,28 +1,28 @@
 {
-  "name": "canvas-theme",
-  "version": "1.0.0",
-  "displayName": "Canvas Theme",
-  "description": "A VS Code theme based on HubSpot's Canvas design system (with Operator Mono support).",
+	"name": "canvas-theme",
+	"version": "1.0.0",
+	"displayName": "Canvas Theme",
+	"description": "A VS Code theme based on HubSpot's Canvas design system (with Operator Mono support).",
 	"publisher": "hatreeksbergermon",
 	"license": "MIT",
-  "icon": "images/logo.png",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/pwilver12/canvas-vscode"
-  },
+	"icon": "images/logo.png",
+	"scripts": {
+		"start": "nodemon --exec vsce package"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/pwilver12/canvas-vscode"
+	},
 	"engines": {
 		"vscode": "^1.0.0"
-  },
-  "categories": [
+	},
+	"categories": [
 		"Themes"
 	],
 	"keywords": [
 		"VSCode",
 		"Themes"
 	],
-	// "scripts": {
-	// 	"start": "nodemon --exec vsce package"
-	// },
 	"contributes": {
 		"themes": [
 			{
@@ -38,5 +38,9 @@
 			"href": "https://opensource.org/licenses/MIT",
 			"description": "License: MIT"
 		}
-	]
+	],
+	"devDependencies": {
+		"nodemon": "^1.18.9",
+		"vsce": "^1.54.0"
+	}
 }

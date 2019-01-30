@@ -1,6 +1,7 @@
 {
 	"github": {
 		"release": true,
-    "releaseName": "🙈 v%s"
+		"releaseName": "🙈 v%s",
+		"tokenRef": "GITHUB_TOKEN_PWILVER12_REPO"
 	}
 }

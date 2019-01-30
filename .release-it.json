@@ -1,4 +1,9 @@
 {
+	"git": {
+		"commitMessage": "🙈 v%s",
+    "tagName": "v%s",
+		"tagAnnotation": "🙈 v%s"
+	},
 	"github": {
 		"release": true,
 		"releaseName": "🙈 v%s",

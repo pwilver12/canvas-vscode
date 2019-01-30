@@ -38,13 +38,6 @@
 			}
 		]
 	},
-	"badges": [
-		{
-			"url": "https://img.shields.io/badge/License-MIT-brightgreen.svg",
-			"href": "https://opensource.org/licenses/MIT",
-			"description": "License: MIT"
-		}
-	],
 	"devDependencies": {
 		"nodemon": "^1.18.9",
 		"release-it": "^10.0.7"

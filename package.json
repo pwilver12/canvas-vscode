@@ -7,7 +7,9 @@
 	"license": "MIT",
 	"icon": "images/logo.png",
 	"scripts": {
-		"start": "nodemon --exec vsce package"
+		"start": "nodemon --exec vsce package",
+		"release": "release-it && npx vsce publish",
+		"release:test": "release-it --dry-run"
 	},
 	"repository": {
 		"type": "git",
@@ -41,6 +43,6 @@
 	],
 	"devDependencies": {
 		"nodemon": "^1.18.9",
-		"vsce": "^1.54.0"
+		"release-it": "^10.0.7"
 	}
 }

@@ -1,6 +1,6 @@
 {
 	"name": "canvas-theme",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"displayName": "Canvas Theme",
 	"description": "A VS Code theme based on HubSpot's Canvas design system (with Operator Mono support).",
 	"publisher": "hatreeksbergermon",
